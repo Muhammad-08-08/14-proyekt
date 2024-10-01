@@ -1,0 +1,444 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.container{
+    width: 1500px;
+    height: 4600px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+nav{
+    width: 1145px;
+    height: 39px;
+    margin-top: 43px;
+    margin-left: 178px;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav h2{
+    font-size: 22px;
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    margin-left: 287px;
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #170C04;
+
+}
+nav div:nth-child(1){
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.img{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+/* navbar tugadi */
+
+.my{
+   width: 613px;
+   height: 338px;
+   margin-left: 180px;
+   display: flex;
+   gap: 200px;
+   align-items: center;
+   margin-top: 100px;
+}
+main h1{
+    width: 450px;
+    font-size: 100px;
+    color: #170C04;
+    line-height: 120px;
+    margin-bottom: 80px;
+}
+.buy{
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #E27B3A;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.detal{
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: white;
+    color: #E27B3A;
+    border: none;
+    font-size: 16px;
+}
+.kuchuk{
+    background-image: url(./orqafoni.png);
+    background-repeat: no-repeat;
+    background-position: 1000px;
+}
+.section1{
+     width: 1140px;
+     height: 275px;
+     margin-left: 180px;
+}
+/* main bo'limi tugadi */
+.section1{
+    display: flex;
+    gap: 30px;
+    width: 1140px;
+    height: 275px;
+    margin-top: 130px;
+    margin-left: 180px;
+    text-align: center;
+}
+.div1{
+    align-items: center;
+    width: 360px;
+    height: 241px;
+    border-radius: 8px;
+    background-color: white;
+}
+.best{
+    font-size: 25px;
+    color: #170C04;
+    width: 310px;
+    height: 76px;
+    align-items: center;
+}
+.dogs{
+    font-size: 16px;
+    opacity: 60%;
+    color: #170C04;
+    width: 298px;
+    height: 48px;
+}
+.detal1{
+    background-color: white ;
+    border: none;
+    width: 100px;
+    height: 24px;
+    font-size: 16px;
+    color: #E27B3A;
+    align-items: center;
+}
+/* section1 tugadi */
+.section2{
+    width: 1140px;
+    height: 1176px;
+    margin-left: 182px;
+}
+.popular{
+    font-size: 32.25px;
+    color: #170C04;
+    text-align: center;
+
+}
+.heat{
+    width: 505px;
+    height: 65px;
+    font-size: 16px;
+    color: #170C04;
+    opacity: 60%;
+    margin-left: 300px;
+    margin-top: 30px;
+    text-align: center;
+}
+.img2{
+    display: flex;
+    gap: 30px;
+}
+.img1{
+    width: 555px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: #FCF2EB;
+    padding: 70px;
+}
+.mauris{
+    font-size: 25px;
+    color: #170C04;
+    width: 555px;
+    height: 40px;
+}
+.detal2{
+    text-align: center;
+}
+.view{
+    width: 188px;
+    height: 19px;
+    color: #E27B3A;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    margin-top: 25px;
+}
+.Details{
+    display: flex;
+}
+.buyum{
+    background-color: #FCF2EB;
+    width: 360px;
+    height: 293px;
+    border-radius: 10px;
+    text-align: center;
+}
+.buyumlar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+}
+.buyum1{
+    background-color: #FCF2EB;
+    width: 360px;
+    height: 293px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.mauris1{
+    font-size: 20px;
+    color: #170C04;
+    width: 360px;
+    height: 40px
+}
+.all{
+    margin-left: 450px;
+    margin-top: 30px;
+    width: 185px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0.15px;
+    background-color: white;
+    color: #E27B3A;
+}
+
+/* section2 bo'limi tugadi */
+
+.section3{
+    width: 1222px;
+    height: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+}
+.care{
+    font-size: 16px;
+    width: 127px;
+    color: #E27B3A;
+    margin-left: 50px;
+
+}
+.start{
+    font-size: 32.25px;
+    width: 487px;
+    color: #170C04;
+    margin-left: 50px;
+    margin-top: 4px;
+
+}
+.in{
+    width: 487px;
+    opacity: 60%;
+    font-size: 16px;
+    color: #170C04;
+    margin-left: 50px;
+    margin-top: 18px;
+
+}
+.now{
+    width: 189px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #E27B3A;
+    color: white;
+    border:none;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+.see{
+    width: 139px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px;
+    background-color: white;
+    color: #E27B3A;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+/* section3 tugadi */
+.section4{
+    width: 1140px;
+    height: 708px;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 122px;
+    padding: 0 30px;
+}
+.how{
+    width: 305px;
+    height: 93px;
+    margin-left: 420px;
+    font-size: 32.25px;
+    margin-bottom: 67px;
+}
+.how2{
+    text-align: center;
+}
+.kuchukcha{
+    display: flex;
+    gap: 76px;
+}
+.leave{
+    width: 360px;
+    height: 49px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 65.7px;
+}
+.never{
+    width: 359px;
+    height: 65px;
+    opacity: 60%;
+    color: #170C04;
+    text-align: center;
+    margin-top: 22px;
+}
+.view1{
+    width: 88px;
+    height: 19px;
+    color: #E27B3A;
+    border: none;
+    font-size: 16px;
+    margin-left: 150px;
+}
+.orovchi4{
+    display: flex;
+}
+.subscribe{
+    width: 131px;
+    height: 48px;
+    margin-left: 470px;
+    border-radius: 24px;
+    background-color: #E27B3A;
+    color: white;
+    margin-top: 46px;
+    border: none;
+}
+/* section to'rt tugadi */
+.ikonkalar{
+    display: flex;
+    gap: 50px;
+    justify-content:center;
+    margin-top: 20px;
+}
+.bac{
+    width: 1140px;
+    height: 346px;
+    margin-left: auto;    
+    margin-right: auto;
+    background-color: #2E96FF;
+    padding-left: 69px;
+    display: flex;
+    gap: 66px;
+    margin-top: 140px;
+}
+.leave{
+    width: 400px;
+    height: 72.09px;
+    font-size: 31.25px;
+    color: white;
+}
+.needs{
+    width: 400px;
+    height: 52px;
+    opacity: 70%;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.input{
+    width: 487px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 136px;
+    padding: 20px;
+    border: none;
+}
+.Send{
+    width: 115.44px;
+    height: 70px;
+    border-radius: 0px 10px 10px 0;
+    background-color: #E27B3A;
+    color: white;
+    border: none;
+    margin-top: 136px;
+}
+form{
+    display: flex;
+}
+/*  */
+footer{
+    width: 1500px;
+    height: 363.5px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+footer img{
+    width: 48px;
+    height: 51px;
+    margin-left: 700px;
+}
+.polisy{
+    width: 117px;
+    height: 19px;
+    opacity: 80%;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.polisy1{
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.gmail{
+    font-size: 16px;
+    color: #E27B3A;
+}
+/* .ikki{
+    display: flex;
+} */
+.dumaloq3{
+    display: flex;
+}
+.footer1{
+    display: flex;
+    justify-content:space-around;
+}
+.Product{
+    width: 279px;
+    height: 30px;
+    font-size: 26px;
+    color: white;
+}
